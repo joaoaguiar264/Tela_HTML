@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+img{
+    cursor: pointer;
+}
+.navbar {
+    border: 1px solid white;
+    background-color: #3e5066;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.logo {
+    width: 150px;
+    height: 50px;
+}
+
+.nav-menu {
+    color: white;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    text-align: center;
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link:hover {
+    transition: .5s;
+    padding: 10px 18px;
+    background-color: black;
+    color: white;
+    border-radius: 12px 0 12px 0;
+}
+
+.fa-magnifying-glass, .fa-user, .fa-cart-shopping{
+    padding:10px;
+    cursor: pointer;
+}
+.fa-solid:hover{
+    color:white;
+}
+
+.about{
+    height: 100vh;
+}
+
+.carro{
+    height: 100vh;
+    text-align: center;
+}
+
+body{
+    background-color: white;
+}
+h1, h2{
+    cursor: default;
+}
+.container{
+    padding: 30px;
+    align-items: center;
+    text-align: center;
+}
+.card{
+    background-color: white;
+    width: 342px;
+    text-align: center;
+    padding-bottom: 20px;
+    display: inline-block;
+    margin: 50px;
+    transition: .5s;
+    border: 1px solid black;
+    box-shadow: 0px 0px 20px black;
+}
+.card:hover{
+    transform: scale(1.05);
+}
+.picture{
+    cursor: pointer;
+}
+.title{
+    position: relative;
+    top: -50px;
+    text-align: left;
+    padding-left: 20px;
+    background-color: rgba(0, 0, 0, 0.438);
+    color: white;
+}
+.old-price{
+    font-size: 16px;
+    text-align: left;
+    padding: 5px;
+    margin-top: -30px;
+    color: gray;
+}
+.new-price{
+    padding :5px;
+    margin-top: -10px;
+    display: inline; 
+}
+.discount{
+    color:green;
+    font-size: 15px;
+    display: inline;
+    margin-bottom: -10px;
+}
+.description{
+    text-align: justify;
+    padding: 0 20px;
+}
+.second-row{
+    align-items: left;
+    text-align: left;
+}
+.buy{
+    margin-top: 20px;
+    height: 40px;
+    padding: 5px;
+    background-color: lightgreen;
+}
+.add{
+    margin-top: 20px;
+    height: 40px;
+    padding: 5px;
+    margin-right: 10px;
+    background-color: lightsalmon;
+}
+.add:hover, .buy:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.stars{
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-bottom: -10px;
+}
+footer{
+    background-color: #3e5066;
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+    position: fixed ;
+    width: 100%;
+    bottom: 0;
+}
+.fa-arrow-up{
+    position: fixed;
+    right: 20px;
+    bottom:-40px;
+    width: 80px;
+    height: 80px;
+    color:black;
+    transform: scale(2.5);
+    cursor: pointer;
+}
+.fa-arrow-up:hover{
+    color: #3e5066;
+}
+
